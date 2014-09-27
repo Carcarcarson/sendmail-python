@@ -1,16 +1,17 @@
-Send email using smtplib in python
+### Sending anonymous email using smtplib in python
 
-Homework on information Security class, send a fake email using a fake "mail from"
+Homework on Information Security lesson: send a fake(anonymous) E-mail using a fake "mail from".
 
----------------------------------------------------------------------
+
 
 Suppose that you want to send a fake email to ryan@meow.com
 
-Firstly, using "nslookup" to find the exchanger server of "meow.com" (set type=mx)
+Firstly, using "nslookup" command to find the exchange server of "meow.com" (`set type=mx`)
 
-Coz smtp don't auth on exchanger server, you can simply send MIME format email to ryan@meow.com
+Coz SMTP protocol doesn't authorize on exchange server, you can directly send MIME format E-mail to the exchange server.
 
-Tips: Testing it on your own email to make sure it won't be sent to Trash
+
+Tips: Testing it on your own email to make sure your E-mail won't be sent to Trash.
 
 
 Ryan
